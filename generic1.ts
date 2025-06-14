@@ -22,3 +22,20 @@ console.log(p2);
 console.log(p2);
 
 console.log(p1);
+
+
+interface displayInfo<u,v>{
+    name:string,
+    age:number
+    address:u,
+    gender:v
+}
+
+const displayInfoObj:displayInfo<string,string>={
+        name:"Vinay",
+        age:22,
+        address:"Hyderabad",
+        gender:"male"
+}
+
+console.log(displayInfoObj);
