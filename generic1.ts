@@ -20,3 +20,5 @@ const p2:data<number>={
 
 console.log(p2);
 console.log(p2);
+
+console.log(p1);
